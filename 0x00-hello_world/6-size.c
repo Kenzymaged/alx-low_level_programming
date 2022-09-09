@@ -1,4 +1,4 @@
-nclude < stdio.h >
+#include <stdio.h>
 
 /**
  * main - print the string in put function
@@ -17,7 +17,7 @@ int main(void)
 	printf("size of char %ld byte(s)\n", sizeof(c));
 	printf("size of int %ld byte(s)\n", sizeof(i));
 	printf("size of long %ld byte(s)\n", sizeof(li));
-	printf("size of long long %ld byte(s)", sizeof(lli));
-	printf("size of float %ld byte(s)", sizeof(f));
+	printf("size of long long %ld byte(s)\n", sizeof(lli));
+	printf("size of float %ld byte(s)\n", sizeof(f));
 	return (0);
 }
