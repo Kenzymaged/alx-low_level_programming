@@ -2,6 +2,7 @@
 
 /**
  * main - print the string in put function
+ *
  * description: using the main function
  * the program prints the statement
  * Return: 0
